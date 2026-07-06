@@ -1,0 +1,71 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff6ec; /* cream background */
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  /* ONE BABY PINK CARD */
+  .card {
+    background: #ffd9e6;
+    padding: 40px 60px;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+   width: 1000px;
+   height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .msgWrap {
+    margin-top: 12px;
+  }
+  
+  .msg {
+    margin: 6px 0;
+    color: #c2185b;
+    font-size: 20px;
+  }
+  
+  .btns {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  button {
+    padding: 10px 22px;
+    margin: 8px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.25s ease;
+  }
+  
+  .yes {
+    background: #ff6fa5;
+    color: white;
+    position: relative;
+    transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  
+  
+  .no {
+    background: #222;
+    color: white;
+  }
+  
+  .success img {
+    width: 480px;
+    margin-top: 15px;
+  }
+  
